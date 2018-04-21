@@ -17,7 +17,7 @@ namespace gab2018_aspnet_core_demo.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Hello from GAB2018";
 
             return View();
         }
